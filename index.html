@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +11,19 @@
     <link rel="stylesheet" href="./style.css">
     <title>Vue Hello</title>
 </head>
+
 <body>
     <div id="root">
         <h2 :class="headClass">{{headContent}}</h2>
+        <div class="img-adjust">
+            <img :src="imgSrc" alt="immagine dinamica">
+        </div>
     </div>
-
+    <footer class="footer-txt">
+        <span >Created by Stefano 🐸</span>
+    </footer>
     <!-- script js -->
     <script src="./script.js"></script>
 </body>
+
 </html>

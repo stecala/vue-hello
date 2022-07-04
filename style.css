@@ -1,6 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+body{
+    background-image: linear-gradient(rgb(255, 104, 240) , rgb(228, 253, 127));
+    height: 100vh;
+}
 .color{
-    color: lightcoral;
+    color: rgb(255, 255, 255);
+    margin: 20px;
 }
 .text-center{
     text-align: center;
+}
+.img-adjust{
+    width: 50vw;
+    margin:  0  auto;
+}
+.footer-txt{
+    text-align: center;
+    margin: 30px;
 }

@@ -3,6 +3,8 @@ const myApp = new Vue ({
     data : {
         headContent : 'Titolo dinamico',
         headClass : "text-center color",
+        imgSrc : 'https://media.wizards.com/2015/events/gpsao15/John-Avon-Unhinged.jpg',
+        
     },
     methods : {
             
